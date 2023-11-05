@@ -1,0 +1,2256 @@
+{
+    "courses": [
+        {
+            "CourseName": "Introduction to Python Programming",
+            "courseThumb": "https://digitalclassworld.com/e-learning/storage/app/app_resources/tutor/course_thumbnail/4329/course-thumbnail-1648208030.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Sarah Johnson",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "sarah_johnson_image.jpg"
+                },
+                {
+                    "Name": "Michael Smith",
+                    "Title": "Assistant Instructor",
+                    "ImageURL": "michael_smith_image.jpg"
+                }
+            ],
+            "Description": "Learn the fundamentals of Python programming language.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "8 weeks",
+            "Price": "$249.99",
+            "Schedule": {
+                "Start": "2023-02-15",
+                "End": "2023-04-10",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "6:00 PM - 8:00 PM"
+            },
+            "Location": {
+                "City": "Sampleville",
+                "State": "Sample State",
+                "Building": "Tech Building 102",
+                "Room": "Room B2"
+            },
+            "Prerequisites": [
+                "Basic programming knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Python syntax and variables",
+                        "Data types"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Conditional statements",
+                        "Loops"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Functions",
+                        "Error handling"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Lists and dictionaries",
+                        "File handling"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Modules and packages",
+                        "Regular expressions"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Object-oriented programming",
+                        "Classes and objects"
+                    ]
+                },
+                {
+                    "Week": 7,
+                    "Topics": [
+                        "GUI development",
+                        "Event handling"
+                    ]
+                },
+                {
+                    "Week": 8,
+                    "Topics": [
+                        "Database connectivity",
+                        "Final project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Web Development Fundamentals",
+            "courseThumb": "https://qph.cf2.quoracdn.net/main-qimg-260ae1951e2b6c24d50ddfe2efdda468",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "David Lee",
+                    "Title": "Instructor",
+                    "ImageURL": "instructor_image_url.jpg"
+                }
+            ],
+            "Description": "An introduction to web development technologies and concepts.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "10 weeks",
+            "Price": "$299.99",
+            "Schedule": {
+                "Start": "2023-03-10",
+                "End": "2023-05-18",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "5:30 PM - 7:30 PM"
+            },
+            "Location": {
+                "City": "Techtown",
+                "State": "Tech State",
+                "Building": "Web Center",
+                "Room": "Room 1A"
+            },
+            "Prerequisites": [
+                "Basic HTML and CSS knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to web technologies",
+                        "HTML and CSS"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "JavaScript Fundamentals",
+                        "DOM Manipulation"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Responsive Web Design",
+                        "CSS Frameworks"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Front-End Frameworks (e.g., React)",
+                        "Web Development Tools"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Back-End Development (e.g., Node.js)",
+                        "APIs and REST"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Database Management (SQL and NoSQL)",
+                        "CRUD Operations"
+                    ]
+                },
+                {
+                    "Week": 7,
+                    "Topics": [
+                        "Authentication and Security",
+                        "Version Control (Git)"
+                    ]
+                },
+                {
+                    "Week": 8,
+                    "Topics": [
+                        "Web Hosting and Deployment",
+                        "Performance Optimization"
+                    ]
+                },
+                {
+                    "Week": 9,
+                    "Topics": [
+                        "Web Development Project",
+                        "Testing and Debugging"
+                    ]
+                },
+                {
+                    "Week": 10,
+                    "Topics": [
+                        "Final Project Presentation",
+                        "Course Conclusion and Next Steps"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Introduction to C Programming",
+            "courseThumb": "https://www.alct.lk/assets/img/c-pro.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "John Smith",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "john_smith_image.jpg"
+                }
+            ],
+            "Description": "Learn the basics of the C programming language.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "6 weeks",
+            "Price": "$199.99",
+            "Schedule": {
+                "Start": "2023-04-01",
+                "End": "2023-05-15",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "7:00 PM - 9:00 PM"
+            },
+            "Location": {
+                "City": "Codeville",
+                "State": "Programming State",
+                "Building": "Code Center 101",
+                "Room": "Room A1"
+            },
+            "Prerequisites": [
+                "Basic programming knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to C",
+                        "Variables and Data Types"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Conditional Statements",
+                        "Loops"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Functions",
+                        "Arrays"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Pointers",
+                        "File Handling"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Structures and Unions",
+                        "Memory Management"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Dynamic Memory Allocation",
+                        "Final Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "C++ Programming Fundamentals",
+            "courseThumb": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_CPP.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Emily Brown",
+                    "Title": "Instructor",
+                    "ImageURL": "emily_brown_image.jpg"
+                }
+            ],
+            "Description": "An introductory course to C++ programming.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "8 weeks",
+            "Price": "$249.99",
+            "Schedule": {
+                "Start": "2023-03-15",
+                "End": "2023-05-10",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "6:30 PM - 8:30 PM"
+            },
+            "Location": {
+                "City": "Coder's Town",
+                "State": "Programming State",
+                "Building": "Code Academy",
+                "Room": "Room B3"
+            },
+            "Prerequisites": [
+                "Basic programming knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "C++ Basics",
+                        "Data Structures"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Control Structures",
+                        "Functions"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Object-Oriented Programming",
+                        "Classes and Objects"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Inheritance and Polymorphism",
+                        "Templates"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Standard Template Library (STL)",
+                        "File I/O"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Exception Handling",
+                        "Final Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "PHP Web Development",
+            "courseThumb": "https://cursin.net/wp-content/uploads/2023/06/php-Thumbnail-1200-x-630.jpg.webp",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Laura Davis",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "laura_davis_image.jpg"
+                }
+            ],
+            "Description": "Learn PHP and web development for building dynamic websites.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "10 weeks",
+            "Price": "$299.99",
+            "Schedule": {
+                "Start": "2023-04-10",
+                "End": "2023-06-20",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "6:00 PM - 8:00 PM"
+            },
+            "Location": {
+                "City": "Webville",
+                "State": "Tech State",
+                "Building": "Web Development Center",
+                "Room": "Room 2C"
+            },
+            "Prerequisites": [
+                "HTML and CSS knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to PHP",
+                        "Variables and Data Types"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Control Structures",
+                        "Functions"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Arrays and Data Manipulation",
+                        "Forms and User Input"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Database Connectivity (MySQL)",
+                        "Sessions and Cookies"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "File Handling and Uploading",
+                        "Working with APIs"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "MVC Architecture",
+                        "Web Security"
+                    ]
+                },
+                {
+                    "Week": 7,
+                    "Topics": [
+                        "Content Management Systems (CMS)",
+                        "Project Planning"
+                    ]
+                },
+                {
+                    "Week": 8,
+                    "Topics": [
+                        "Building a Dynamic Website",
+                        "Final Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "WordPress Website Development",
+            "courseThumb": "https://brassringwebdesign.com/wp-content/uploads/2017/09/hands-wp-ball-1024x476.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Mark Wilson",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "mark_wilson_image.jpg"
+                }
+            ],
+            "Description": "Learn how to build websites using WordPress CMS.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "8 weeks",
+            "Price": "$199.99",
+            "Schedule": {
+                "Start": "2023-04-20",
+                "End": "2023-06-10",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "7:00 PM - 9:00 PM"
+            },
+            "Location": {
+                "City": "Webville",
+                "State": "Tech State",
+                "Building": "Web Development Center",
+                "Room": "Room 3D"
+            },
+            "Prerequisites": [
+                "Basic web knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to WordPress",
+                        "Setting up a WordPress Site"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Customizing Themes",
+                        "Working with Plugins"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Creating Pages and Posts",
+                        "Media Management"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "User Management",
+                        "SEO Basics"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "E-commerce with WooCommerce",
+                        "Security and Backup"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Advanced Customization",
+                        "Troubleshooting and Support"
+                    ]
+                },
+                {
+                    "Week": 7,
+                    "Topics": [
+                        "Site Performance Optimization",
+                        "Final Website Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Ruby on Rails Web Development",
+            "courseThumb": "https://img-c.udemycdn.com/course/750x422/2519558_7fdc_14.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Jennifer Adams",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "jennifer_adams_image.jpg"
+                }
+            ],
+            "Description": "Learn web development with Ruby on Rails framework.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "12 weeks",
+            "Price": "$349.99",
+            "Schedule": {
+                "Start": "2023-03-30",
+                "End": "2023-06-15",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "6:30 PM - 8:30 PM"
+            },
+            "Location": {
+                "City": "Railsburg",
+                "State": "Tech State",
+                "Building": "Rails Academy",
+                "Room": "Room 1B"
+            },
+            "Prerequisites": [
+                "Basic programming knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to Ruby on Rails",
+                        "Creating Web Applications"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Controllers and Views",
+                        "Database Modeling and Associations"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "CRUD Operations",
+                        "User Authentication"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "RESTful Routes",
+                        "Testing and Debugging"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Advanced Topics in Rails",
+                        "Deployment and Scaling"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Building a Web App Project",
+                        "Final Project Presentation"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Git and GitHub Mastery",
+            "courseThumb": "https://res.cloudinary.com/practicaldev/image/fetch/s--oVyFGbtN--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7ce4oq75sia6ni6q46s3.png",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Kevin Johnson",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "kevin_johnson_image.jpg"
+                }
+            ],
+            "Description": "Master version control with Git and collaboration using GitHub.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "6 weeks",
+            "Price": "$199.99",
+            "Schedule": {
+                "Start": "2023-04-10",
+                "End": "2023-05-22",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "6:30 PM - 8:30 PM"
+            },
+            "Location": {
+                "City": "Codeville",
+                "State": "Programming State",
+                "Building": "Code Center 202",
+                "Room": "Room A2"
+            },
+            "Prerequisites": [
+                "Basic programming knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to Version Control",
+                        "Git Basics"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Working with Repositories",
+                        "Branching and Merging"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Collaborative Development with GitHub",
+                        "Pull Requests"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Advanced Git Techniques",
+                        "Git Workflows"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "GitHub Actions and CI/CD",
+                        "Git Best Practices"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Git Troubleshooting",
+                        "Final Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "ASP.NET Web Development",
+            "courseThumb": "https://ipc.alquds.edu/wp-content/uploads/2018/07/237128_e61b_4.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Michelle Adams",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "michelle_adams_image.jpg"
+                }
+            ],
+            "Description": "Learn web development with ASP.NET framework and C#.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "10 weeks",
+            "Price": "$299.99",
+            "Schedule": {
+                "Start": "2023-03-20",
+                "End": "2023-05-25",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "6:00 PM - 8:00 PM"
+            },
+            "Location": {
+                "City": "Techtown",
+                "State": "Tech State",
+                "Building": "Tech Institute",
+                "Room": "Room 3B"
+            },
+            "Prerequisites": [
+                "C# programming knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to ASP.NET",
+                        "Setting Up Development Environment"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "ASP.NET Core MVC",
+                        "Controllers and Views"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Razor Pages",
+                        "Working with Data"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Authentication and Authorization",
+                        "Middleware"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Web API Development",
+                        "Testing and Debugging"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Client-Side Development with ASP.NET",
+                        "Final Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Angular Web Development",
+            "courseThumb": "https://nullclass.com/wp-content/uploads/2022/02/best-angular-training-courses-online.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "David Lee",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "david_lee_image.jpg"
+                }
+            ],
+            "Description": "Learn web development with the Angular framework.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "12 weeks",
+            "Price": "$349.99",
+            "Schedule": {
+                "Start": "2023-03-15",
+                "End": "2023-06-05",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "7:00 PM - 9:00 PM"
+            },
+            "Location": {
+                "City": "Webville",
+                "State": "Tech State",
+                "Building": "Web Development Center",
+                "Room": "Room 4D"
+            },
+            "Prerequisites": [
+                "HTML, CSS, and JavaScript knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to Angular",
+                        "Components and Modules"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Templates and Data Binding",
+                        "Directives"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Services and Dependency Injection",
+                        "Forms and Validation"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "HTTP and Observables",
+                        "Routing and Navigation"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "State Management with NgRx",
+                        "Testing Angular Applications"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Building Single-Page Applications",
+                        "Final Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "React Web Development",
+            "courseThumb": "https://www.freecodecamp.org/news/content/images/2021/07/reactcourse.png",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Sarah Johnson",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "sarah_johnson_image.jpg"
+                }
+            ],
+            "Description": "Learn web development with the React library and JavaScript.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "10 weeks",
+            "Price": "$299.99",
+            "Schedule": {
+                "Start": "2023-03-10",
+                "End": "2023-05-20",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "6:30 PM - 8:30 PM"
+            },
+            "Location": {
+                "City": "Codeville",
+                "State": "Programming State",
+                "Building": "Code Center 301",
+                "Room": "Room B1"
+            },
+            "Prerequisites": [
+                "HTML, CSS, and JavaScript knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to React",
+                        "Creating React Components"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "State and Props",
+                        "React Router"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Managing Forms and Events",
+                        "Lifting State Up"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Context API and Redux",
+                        "Middleware and API Calls"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Authentication and Authorization",
+                        "React Performance Optimization"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Server-Side Rendering (SSR)",
+                        "Final Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Vue.js Front-End Development",
+            "courseThumb": "https://www.vuemastery.com/images/facebook_social_image.png",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Emma Turner",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "emma_turner_image.jpg"
+                }
+            ],
+            "Description": "Learn front-end web development with the Vue.js framework.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "10 weeks",
+            "Price": "$299.99",
+            "Schedule": {
+                "Start": "2023-04-05",
+                "End": "2023-06-14",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "6:00 PM - 8:00 PM"
+            },
+            "Location": {
+                "City": "Webville",
+                "State": "Tech State",
+                "Building": "Web Development Center",
+                "Room": "Room 5A"
+            },
+            "Prerequisites": [
+                "HTML, CSS, and JavaScript knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to Vue.js",
+                        "Vue.js Instance and Directives"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Vue Components",
+                        "Data Binding and Events"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Vue Router",
+                        "State Management with Vuex"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "API Integration",
+                        "Forms and Validation"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Vue CLI and Build Process",
+                        "Advanced Vue.js Concepts"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Single-Page Applications with Vue.js",
+                        "Final Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Laravel Web Development",
+            "courseThumb": "https://www.excelptp.com/wp-content/uploads/2021/05/laravel-banner-img.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Daniel Clark",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "daniel_clark_image.jpg"
+                }
+            ],
+            "Description": "Learn web development with the Laravel framework using PHP.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "12 weeks",
+            "Price": "$349.99",
+            "Schedule": {
+                "Start": "2023-03-15",
+                "End": "2023-06-05",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "6:30 PM - 8:30 PM"
+            },
+            "Location": {
+                "City": "Coder's Town",
+                "State": "Programming State",
+                "Building": "Code Academy",
+                "Room": "Room C2"
+            },
+            "Prerequisites": [
+                "PHP, HTML, CSS, and JavaScript knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to Laravel",
+                        "Setting Up Development Environment"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Laravel Routing and Controllers",
+                        "Blade Templating"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Eloquent ORM",
+                        "Database Migrations and Seeding"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Middleware and Authentication",
+                        "API Development with Laravel"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Laravel Front-End Tools",
+                        "Testing and Debugging"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Laravel Deployment and Optimization",
+                        "Final Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "CodeIgniter Web Development",
+            "courseThumb": "https://www.excelptp.com/wp-content/uploads/2021/05/codeigneter-banner-img.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Lucy Roberts",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "lucy_roberts_image.jpg"
+                }
+            ],
+            "Description": "Learn web development with the CodeIgniter framework using PHP.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "8 weeks",
+            "Price": "$249.99",
+            "Schedule": {
+                "Start": "2023-04-20",
+                "End": "2023-06-10",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "7:00 PM - 9:00 PM"
+            },
+            "Location": {
+                "City": "Coder's Town",
+                "State": "Programming State",
+                "Building": "Code Academy",
+                "Room": "Room C1"
+            },
+            "Prerequisites": [
+                "PHP, HTML, CSS, and JavaScript knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to CodeIgniter",
+                        "Setting Up CodeIgniter"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "CodeIgniter Controllers and Views",
+                        "Routing and URL"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "CodeIgniter Models",
+                        "Database Operations"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "CodeIgniter Views and Templates",
+                        "Form Handling"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "CodeIgniter Libraries and Helpers",
+                        "Session Management"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "CodeIgniter Security Features",
+                        "Final Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Java Programming Fundamentals",
+            "courseThumb": "https://mindqsystems.com/wp-content/uploads/2019/08/Core-Java-Training.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "John Anderson",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "john_anderson_image.jpg"
+                }
+            ],
+            "Description": "Learn the fundamentals of Java programming language.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "10 weeks",
+            "Price": "$299.99",
+            "Schedule": {
+                "Start": "2023-04-05",
+                "End": "2023-06-14",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "6:00 PM - 8:00 PM"
+            },
+            "Location": {
+                "City": "Codeville",
+                "State": "Programming State",
+                "Building": "Code Center 303",
+                "Room": "Room B3"
+            },
+            "Prerequisites": [
+                "Basic programming knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to Java",
+                        "Variables and Data Types"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Control Statements",
+                        "Methods and Functions"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Arrays and Collections",
+                        "Exception Handling"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Object-Oriented Programming in Java",
+                        "File I/O"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Threads and Concurrency",
+                        "GUI Development with JavaFX"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Database Connectivity with JDBC",
+                        "Final Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Mastering CSS and Web Design",
+            "courseThumb": "https://images.ctfassets.net/aq13lwl6616q/5Vsjisy7BEI69JhQoonaZh/e3dad68c580259a55d3389cb897e5291/complete_web_devloper_zero_to_mastery.png",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Sophia Roberts",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "sophia_roberts_image.jpg"
+                }
+            ],
+            "Description": "Master Cascading Style Sheets (CSS) for web design.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "8 weeks",
+            "Price": "$249.99",
+            "Schedule": {
+                "Start": "2023-03-25",
+                "End": "2023-05-19",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "7:00 PM - 9:00 PM"
+            },
+            "Location": {
+                "City": "Webville",
+                "State": "Design State",
+                "Building": "Design Center 101",
+                "Room": "Room A1"
+            },
+            "Prerequisites": [
+                "Basic HTML knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to CSS",
+                        "CSS Selectors and Properties"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Box Model and Layout",
+                        "Typography and Fonts"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Colors and Backgrounds",
+                        "CSS Transitions and Animations"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Flexbox and Grid Layout",
+                        "Responsive Web Design"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "CSS Preprocessors (e.g., SASS)",
+                        "CSS Frameworks (e.g., Bootstrap)"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Building Stylish Web Pages",
+                        "Final Web Design Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Artificial Intelligence and Machine Learning",
+            "courseThumb": "https://www.rrce.org/blog/wp-content/uploads/2022/11/Artifical-Intelligence.-Machine-Learning-at-RRCE.png",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Alex Davis",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "alex_davis_image.jpg"
+                }
+            ],
+            "Description": "Learn the fundamentals of artificial intelligence and machine learning.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "12 weeks",
+            "Price": "$349.99",
+            "Schedule": {
+                "Start": "2023-03-10",
+                "End": "2023-06-02",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "6:30 PM - 8:30 PM"
+            },
+            "Location": {
+                "City": "AI Central",
+                "State": "Tech State",
+                "Building": "AI Institute",
+                "Room": "Room C3"
+            },
+            "Prerequisites": [
+                "Basic programming and mathematics knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to AI and ML",
+                        "Machine Learning Concepts"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Supervised Learning",
+                        "Unsupervised Learning"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Deep Learning and Neural Networks",
+                        "Natural Language Processing"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Computer Vision and Image Processing",
+                        "Reinforcement Learning"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "AI Ethics and Bias",
+                        "Deploying AI Models"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "AI in Industry and Real-World Projects",
+                        "Final AI Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "MongoDB Fundamentals and NoSQL Databases",
+            "courseThumb": "https://img-c.udemycdn.com/course/750x422/1906852_93c6_2.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Laura Mitchell",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "laura_mitchell_image.jpg"
+                }
+            ],
+            "Description": "Learn the fundamentals of MongoDB and NoSQL databases.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "8 weeks",
+            "Price": "$249.99",
+            "Schedule": {
+                "Start": "2023-04-15",
+                "End": "2023-06-07",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "6:00 PM - 8:00 PM"
+            },
+            "Location": {
+                "City": "Database City",
+                "State": "Tech State",
+                "Building": "Database Center 101",
+                "Room": "Room B1"
+            },
+            "Prerequisites": [
+                "Basic database knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to NoSQL Databases",
+                        "MongoDB Installation and Setup"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "CRUD Operations in MongoDB",
+                        "MongoDB Indexing and Aggregation"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Data Modeling with MongoDB",
+                        "MongoDB Atlas and Cloud Deployment"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Transactions and Replication",
+                        "MongoDB Security and Best Practices"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Advanced MongoDB Features",
+                        "Scalability and Sharding"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Real-World Applications",
+                        "Final Database Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "MySQL Database Development and Administration",
+            "courseThumb": "https://www.filepicker.io/api/file/20zAjZGRneQ05Rh0sCrg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Robert Turner",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "robert_turner_image.jpg"
+                }
+            ],
+            "Description": "Master MySQL database development and administration.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "10 weeks",
+            "Price": "$299.99",
+            "Schedule": {
+                "Start": "2023-04-10",
+                "End": "2023-06-19",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "6:30 PM - 8:30 PM"
+            },
+            "Location": {
+                "City": "DB Central",
+                "State": "Tech State",
+                "Building": "Database Institute",
+                "Room": "Room C1"
+            },
+            "Prerequisites": [
+                "Basic database knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to MySQL",
+                        "Database Design and Normalization"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "SQL Querying and Joins",
+                        "Data Modification and Transactions"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Indexes and Optimization",
+                        "Stored Procedures and Functions"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Backup and Recovery",
+                        "High Availability and Replication"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Security and User Management",
+                        "Performance Tuning"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Real-World Database Projects",
+                        "Final Database Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "PostgreSQL Database Development and Administration",
+            "courseThumb": "https://i.ytimg.com/vi/SpfIwlAYaKk/maxresdefault.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Emily Davis",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "emily_davis_image.jpg"
+                }
+            ],
+            "Description": "Master PostgreSQL database development and administration.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "12 weeks",
+            "Price": "$349.99",
+            "Schedule": {
+                "Start": "2023-03-20",
+                "End": "2023-06-12",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "7:00 PM - 9:00 PM"
+            },
+            "Location": {
+                "City": "DB Central",
+                "State": "Tech State",
+                "Building": "Database Institute",
+                "Room": "Room C2"
+            },
+            "Prerequisites": [
+                "Basic database knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to PostgreSQL",
+                        "Database Design and Normalization"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "SQL Querying and Joins",
+                        "Data Modification and Transactions"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Indexes and Optimization",
+                        "Stored Procedures and Functions"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Backup and Recovery",
+                        "High Availability and Replication"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Security and User Management",
+                        "Performance Tuning"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Real-World Database Projects",
+                        "Final Database Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Docker Containers and Orchestration",
+            "courseThumb": "https://img-b.udemycdn.com/course/750x422/1948098_8faf_8.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Samuel Baker",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "samuel_baker_image.jpg"
+                }
+            ],
+            "Description": "Learn Docker containerization and container orchestration with Kubernetes.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "8 weeks",
+            "Price": "$249.99",
+            "Schedule": {
+                "Start": "2023-04-20",
+                "End": "2023-06-10",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "6:30 PM - 8:30 PM"
+            },
+            "Location": {
+                "City": "Container City",
+                "State": "Tech State",
+                "Building": "Container Tech Center",
+                "Room": "Room D1"
+            },
+            "Prerequisites": [
+                "Basic IT knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to Docker",
+                        "Docker Installation and Containers"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Docker Images and Registries",
+                        "Docker Compose"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Docker Networking",
+                        "Container Orchestration Concepts"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Kubernetes Fundamentals",
+                        "Deployment and Scaling"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Service Discovery and Load Balancing",
+                        "Docker Security"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Real-World Docker Projects",
+                        "Final Container Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "AWS Cloud Computing and Services",
+            "courseThumb": "https://d2908q01vomqb2.cloudfront.net/9109c85a45b703f87f1413a405549a2cea9ab556/2021/05/25/CourseLaunch__Blog_AllCourses-1024x536.png",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Oliver Clark",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "oliver_clark_image.jpg"
+                }
+            ],
+            "Description": "Master Amazon Web Services (AWS) cloud computing and services.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "12 weeks",
+            "Price": "$349.99",
+            "Schedule": {
+                "Start": "2023-03-15",
+                "End": "2023-06-05",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "7:00 PM - 9:00 PM"
+            },
+            "Location": {
+                "City": "Cloudville",
+                "State": "Tech State",
+                "Building": "Cloud Tech Center",
+                "Room": "Room E2"
+            },
+            "Prerequisites": [
+                "Basic IT knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to AWS",
+                        "Getting Started with AWS"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "AWS Compute Services",
+                        "Storage and Databases on AWS"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "AWS Networking and Security",
+                        "AWS Identity and Access Management (IAM)"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "AWS Monitoring and Management Tools",
+                        "Serverless Computing with AWS Lambda"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "AWS DevOps and Continuous Integration/Continuous Deployment (CI/CD)",
+                        "AWS Best Practices"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Real-World AWS Projects",
+                        "Final Cloud Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "CI/CD Pipeline Automation and DevOps",
+            "courseThumb": "https://img-c.udemycdn.com/course/750x422/2779762_87e5_4.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Daniel Smith",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "daniel_smith_image.jpg"
+                }
+            ],
+            "Description": "Learn Continuous Integration and Continuous Deployment (CI/CD) pipeline automation and DevOps practices.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "10 weeks",
+            "Price": "$299.99",
+            "Schedule": {
+                "Start": "2023-04-01",
+                "End": "2023-06-09",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "6:30 PM - 8:30 PM"
+            },
+            "Location": {
+                "City": "DevOps Central",
+                "State": "Tech State",
+                "Building": "DevOps Tech Institute",
+                "Room": "Room F3"
+            },
+            "Prerequisites": [
+                "Basic IT knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to DevOps and CI/CD",
+                        "Version Control with Git"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "CI/CD Concepts and Tools",
+                        "Build Automation with Jenkins"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Containerization with Docker",
+                        "Container Orchestration with Kubernetes"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Automated Testing and Quality Assurance",
+                        "CI/CD for Microservices"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Continuous Deployment and Monitoring",
+                        "Security in CI/CD"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Real-World CI/CD Projects",
+                        "Final DevOps Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Oracle Database Development and Administration",
+            "courseThumb": "https://peoplentech.com.bd/storage/upload/file/iQVJ0kQ6DXM5mVJ9CCIJpPVfxBGvblzUoT4tpusu.jpeg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Sarah Wilson",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "sarah_wilson_image.jpg"
+                }
+            ],
+            "Description": "Master Oracle Database development and administration.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "12 weeks",
+            "Price": "$349.99",
+            "Schedule": {
+                "Start": "2023-03-15",
+                "End": "2023-06-05",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "7:00 PM - 9:00 PM"
+            },
+            "Location": {
+                "City": "DB Central",
+                "State": "Tech State",
+                "Building": "Database Institute",
+                "Room": "Room D1"
+            },
+            "Prerequisites": [
+                "Basic database knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to Oracle Database",
+                        "Database Design and Normalization"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "SQL Querying and Joins",
+                        "Data Modification and Transactions"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Indexes and Optimization",
+                        "PL/SQL Programming"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Backup and Recovery",
+                        "High Availability and Data Guard"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Security and User Management",
+                        "Performance Tuning"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Real-World Database Projects",
+                        "Final Database Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "React Native App Development",
+            "courseThumb": "https://i.ytimg.com/vi/VozPNrt-LfE/maxresdefault.jpg",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "David Lee",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "david_lee_image.jpg"
+                }
+            ],
+            "Description": "Learn mobile app development with React Native.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "10 weeks",
+            "Price": "$299.99",
+            "Schedule": {
+                "Start": "2023-04-10",
+                "End": "2023-06-19",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "6:30 PM - 8:30 PM"
+            },
+            "Location": {
+                "City": "Mobileville",
+                "State": "App State",
+                "Building": "App Development Center",
+                "Room": "Room E1"
+            },
+            "Prerequisites": [
+                "JavaScript and React knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to React Native",
+                        "Setting Up React Native Environment"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "React Native Components",
+                        "Navigation and Routing"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Styling in React Native",
+                        "API Integration and Data Handling"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "State Management in React Native",
+                        "Building Real Mobile Apps"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Advanced Topics in React Native",
+                        "Testing and Debugging"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Publishing and Deployment",
+                        "Final Mobile App Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Kotlin Programming for Android",
+            "courseThumb": "https://www.classcentral.com/report/wp-content/uploads/2022/08/BCG-Kotlint-Featured-Banner.png",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Sophia Turner",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "sophia_turner_image.jpg"
+                }
+            ],
+            "Description": "Learn Kotlin programming for Android app development.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "8 weeks",
+            "Price": "$249.99",
+            "Schedule": {
+                "Start": "2023-04-15",
+                "End": "2023-06-07",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "6:00 PM - 8:00 PM"
+            },
+            "Location": {
+                "City": "Androidville",
+                "State": "App State",
+                "Building": "App Development Center",
+                "Room": "Room F1"
+            },
+            "Prerequisites": [
+                "Basic programming knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to Kotlin",
+                        "Kotlin Basics and Syntax"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Kotlin Functions and Lambdas",
+                        "Object-Oriented Programming in Kotlin"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Kotlin Collections",
+                        "Kotlin for Android"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Kotlin Coroutines",
+                        "Android App Development with Kotlin"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Kotlin for Mobile Apps",
+                        "Advanced Kotlin Features"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Publishing Android Apps",
+                        "Final Android App Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "Swift Programming for iOS",
+            "courseThumb": "https://www.classcentral.com/report/wp-content/uploads/2022/08/BCG-Swift-Featured-Banner.png",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "Michael Smith",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "michael_smith_image.jpg"
+                }
+            ],
+            "Description": "Learn Swift programming for iOS app development.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "10 weeks",
+            "Price": "$299.99",
+            "Schedule": {
+                "Start": "2023-04-10",
+                "End": "2023-06-19",
+                "Days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "Time": "6:30 PM - 8:30 PM"
+            },
+            "Location": {
+                "City": "iOSville",
+                "State": "App State",
+                "Building": "App Development Center",
+                "Room": "Room G1"
+            },
+            "Prerequisites": [
+                "Basic programming knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to Swift",
+                        "Swift Basics and Syntax"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "Swift Functions and Closures",
+                        "Object-Oriented Programming in Swift"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "Swift Collections and Control Flow",
+                        "iOS App Development with Swift"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Swift Concurrency and Asynchronous Programming",
+                        "User Interface Development"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "Swift for Mobile Apps",
+                        "Advanced iOS Features"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Publishing iOS Apps",
+                        "Final iOS App Project"
+                    ]
+                }
+            ]
+        },
+        {
+            "CourseName": "C# Programming for Software Development",
+            "courseThumb": "https://www.classcentral.com/report/wp-content/uploads/2022/07/C-BCG-Banner.png",
+            "students": [],
+            "Instructors": [
+                {
+                    "Name": "John Davis",
+                    "Title": "Lead Instructor",
+                    "ImageURL": "john_davis_image.jpg"
+                }
+            ],
+            "Description": "Master C# programming for software development.",
+            "EnrollmentStatus": "Open",
+            "CourseDuration": "12 weeks",
+            "Price": "$349.99",
+            "Schedule": {
+                "Start": "2023-03-15",
+                "End": "2023-06-05",
+                "Days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "Time": "7:00 PM - 9:00 PM"
+            },
+            "Location": {
+                "City": "Codeville",
+                "State": "Tech State",
+                "Building": "Code Development Center",
+                "Room": "Room H1"
+            },
+            "Prerequisites": [
+                "Basic programming knowledge"
+            ],
+            "Syllabus": [
+                {
+                    "Week": 1,
+                    "Topics": [
+                        "Introduction to C#",
+                        "C# Basics and Syntax"
+                    ]
+                },
+                {
+                    "Week": 2,
+                    "Topics": [
+                        "C# Functions and Classes",
+                        "Object-Oriented Programming in C#"
+                    ]
+                },
+                {
+                    "Week": 3,
+                    "Topics": [
+                        "C# Collections and LINQ",
+                        "Asynchronous Programming in C#"
+                    ]
+                },
+                {
+                    "Week": 4,
+                    "Topics": [
+                        "Database Access with ADO.NET",
+                        "ASP.NET Web Development with C#"
+                    ]
+                },
+                {
+                    "Week": 5,
+                    "Topics": [
+                        "C# for Desktop Applications (WinForms/WPF)",
+                        "Unit Testing and Debugging"
+                    ]
+                },
+                {
+                    "Week": 6,
+                    "Topics": [
+                        "Real-World Software Projects",
+                        "Final Software Development Project"
+                    ]
+                }
+            ]
+        }
+    ]
+}
