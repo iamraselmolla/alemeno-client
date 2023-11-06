@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import According from './According';
 
 const CourseDetails = () => {
-   
+
     const { id } = useParams();
     const { courses } = useSelector(state => state.courseData);
 
@@ -14,10 +14,10 @@ const CourseDetails = () => {
 
 
 
-        <div className="container mt-4">
+        <div className="container py-5 mt-4">
             <div className="row">
                 <div className="col-md-6">
-                    <h1 style={{fontWeight: '900'}}>{course.CourseName}</h1>
+                    <h1 style={{ fontWeight: '900' }}>{course.CourseName}</h1>
                     <img src={course.courseThumb} alt="Course Thumbnail" className="img-fluid" />
                     <p>{course.Description}</p>
                     <p><strong>Instructor:</strong> {course.Instructors.Name} ({course.Instructors.Title})</p>
@@ -29,12 +29,14 @@ const CourseDetails = () => {
                     <p><strong>Schedule:</strong> {course.Schedule.Start} - {course.Schedule.End}<br />
                         <strong>Days:</strong> {course.Schedule.Days.join(", ")}<br />
                         <strong>Time:</strong> {course.Schedule.Time}</p>
+
+                    <button className='btn btn-outline-success  w-100 '>Buy Now</button>
                 </div>
                 <div className="col-md-6">
                     <h2>Syllabus</h2>
                     <div id="syllabusAccordion">
                         {course.Syllabus.map((week, index) => (
-                           <According week={week} index={index} />
+                            <According week={week} index={index} />
                         ))}
                     </div>
                 </div>

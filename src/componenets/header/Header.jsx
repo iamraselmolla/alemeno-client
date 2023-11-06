@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link, NavLink } from 'react-router-dom';
+import { AuthContext } from '../AuthContext/AuthProvider';
+import toast from 'react-hot-toast';
 
 const Header = () => {
+    const { user, logOut } = useContext(AuthContext);
+    const handlelogOut = () => {
+        logOut()
+            .then(() => {
+                // localStorage.removeItem('access-token')
+                toast.error(`Hello ${user?.displayName}! You successfully log out`)
+
+            })
+            .catch(() => { })
+    }
+
     return (
 
 
@@ -18,12 +30,35 @@ const Header = () => {
                     <Nav className="mx-auto">
                         <NavLink
                             to="/"
-                            className={`text-decoration-none ${({ isActive, isPending }) =>
+                            className={`text-decoration-none px-3 font-weight-bold text-white  ${({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
                                 }`}
                         >
                             Home
-                        </NavLink>;
+                        </NavLink>
+                        {!user && <> <NavLink
+                            to="/login"
+                            className={`text-decoration-none px-3 font-weight-bold text-white  ${({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                                }`}
+                        >
+                            Login
+                        </NavLink>
+                            <NavLink
+                                to="/register"
+                                className={`text-decoration-none px-3 font-weight-bold text-white  ${({ isActive, isPending }) =>
+                                    isPending ? "pending" : isActive ? "active" : ""
+                                    }`}
+                            >
+                                Register
+                            </NavLink> </>}
+                        {
+                            user && <>
+                                <p onClick={handlelogOut} className="text-white pointer-event ">
+                                    Signout
+                                </p>
+                            </>
+                        }
 
                         {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Main from './componenets/Main';
-import Home from './componenets/home/Home';
+import Home from './componenets/page/home/Home';
 import CourseDetails from './componenets/shared/CourseDetails';
+import { Toaster } from 'react-hot-toast';
+import Login from './componenets/page/login/Login';
+import Register from './componenets/page/register/Register';
 
 function App() {
 
@@ -16,11 +19,19 @@ function App() {
       children: [
         {
           path: '/',
-          element: <Home></Home>
+          element: <Home />
         },
         {
           path: 'courses/:id',
-          element: <CourseDetails/>
+          element: <CourseDetails />
+        },
+        {
+          path: '/login',
+          element: <Login />
+        },
+        {
+          path: '/register',
+          element: <Register />
         }
       ]
     }
@@ -28,7 +39,9 @@ function App() {
   return (
 
     < div className="App" >
-      <RouterProvider router={router}></RouterProvider>
+      <RouterProvider router={router}>
+        <Toaster />
+      </RouterProvider>
     </div>
   );
 }

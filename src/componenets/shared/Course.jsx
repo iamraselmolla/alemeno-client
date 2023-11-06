@@ -34,6 +34,7 @@ const Course = ({ data }) => {
 
                 </div>
             </div>
+
         </div>
     );
 };

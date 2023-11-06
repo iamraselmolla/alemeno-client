@@ -7,12 +7,15 @@ import { Provider } from 'react-redux';
 import store from './componenets/redux/store';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import AuthProvider from './componenets/AuthContext/AuthProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <AuthProvider>
+        <App />
+      </AuthProvider>
     </Provider>
   </React.StrictMode>
 );
