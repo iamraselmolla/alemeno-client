@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Course = ({ data }) => {
     const { courseThumb, CourseName, CourseDuration, Instructors, Price } = data
     return (
-        <div className='shadow-lg py-2 pb-4 px-1'>
+        <div className='shadow-lg rounded-bottom py-2 pb-4 px-1'>
             <img className='course-image' height="150" src={courseThumb} alt="" srcSet="" />
             <div className="px-2 mt-3">
                 <div className="d-flex justify-content-between">
