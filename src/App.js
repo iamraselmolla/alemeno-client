@@ -8,6 +8,8 @@ import CourseDetails from './componenets/shared/CourseDetails';
 import { Toaster } from 'react-hot-toast';
 import Login from './componenets/page/login/Login';
 import Register from './componenets/page/register/Register';
+import Dashboard from './componenets/page/dashboard/Dashboard';
+import PrivateRoute from './componenets/router/PrivateRoute';
 
 function App() {
 
@@ -32,6 +34,10 @@ function App() {
         {
           path: '/register',
           element: <Register />
+        },
+        {
+          path: '/dashboard',
+          element: <PrivateRoute><Dashboard /></PrivateRoute>
         }
       ]
     }
@@ -40,7 +46,7 @@ function App() {
 
     < div className="App" >
       <RouterProvider router={router}>
-        <Toaster />
+
       </RouterProvider>
     </div>
   );

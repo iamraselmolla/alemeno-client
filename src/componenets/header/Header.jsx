@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../AuthContext/AuthProvider';
 import toast from 'react-hot-toast';
+import { NavDropdown } from 'react-bootstrap';
 
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
@@ -12,7 +13,7 @@ const Header = () => {
         logOut()
             .then(() => {
                 // localStorage.removeItem('access-token')
-                toast.error(`Hello ${user?.displayName}! You successfully log out`)
+                return toast.error(`Hello ${user?.displayName}! You successfully log out`)
 
             })
             .catch(() => { })
@@ -52,26 +53,18 @@ const Header = () => {
                             >
                                 Register
                             </NavLink> </>}
-                        {
-                            user && <>
-                                <p onClick={handlelogOut} className="text-white pointer-event ">
-                                    Signout
-                                </p>
-                            </>
-                        }
 
-                        {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
-                                Another action
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">
-                                Separated link
-                            </NavDropdown.Item>
-                        </NavDropdown> */}
+
                     </Nav>
+                    {user && <NavDropdown className='text-white' title={`Hello ${user?.displayName}`} id="basic-nav-dropdown">
+                        <Link className='px-3 py-1 d-block  text-decoration-none  text-white ' to="/dashboard">
+                            Dashboard
+                        </Link>
+                        <div style={{ cursor: 'pointer' }} className='px-3 py-1 d-block  text-decoration-none  text-white ' onClick={handlelogOut}>
+                            Sign Out
+                        </div>
+
+                    </NavDropdown>}
                 </Navbar.Collapse>
             </Container>
         </Navbar>

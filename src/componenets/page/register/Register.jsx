@@ -6,7 +6,7 @@ import { AuthContext } from '../../AuthContext/AuthProvider';
 import toast from 'react-hot-toast';
 
 const Register = () => {
-    const { createUser, logOut } = useContext(AuthContext);
+    const { createUser, logOut, updateUserInfo, setIsRegistered } = useContext(AuthContext);
     const googleAuth = new GoogleAuthProvider();
 
     const [loading, setLoadingStatus] = useState(false)
@@ -17,8 +17,15 @@ const Register = () => {
         setLoadingStatus(true)
         createUser(e.target.email.value, e.target.password.value)
             .then(res => {
-                toast.success("Registration Successfull");
-                navigate('/login')
+                updateUserInfo({
+                    displayName: e.target.username.value
+                })
+                    .then(res => {
+                        setIsRegistered(true)
+                        toast.success("Registration Successfull");
+                        navigate('/login')
+                    })
+
             })
             .catch(err => console.log(err.message))
 

@@ -8,13 +8,14 @@ import store from './componenets/redux/store';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import AuthProvider from './componenets/AuthContext/AuthProvider';
+import { Toaster } from 'react-hot-toast';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
       <AuthProvider>
-        <App />
+        <App />   <Toaster />
       </AuthProvider>
     </Provider>
   </React.StrictMode>

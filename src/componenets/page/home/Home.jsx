@@ -4,24 +4,33 @@ import { useDispatch, useSelector } from 'react-redux';
 import { courseDataAction } from '../../redux/courseDataSlice';
 
 const Home = () => {
-    const dispatch = useDispatch();;
+    const dispatch = useDispatch();
     const { courses } = useSelector(state => state.courseData);
-    const [filteredCourses, setFilteredCourses] = useState(courses);
+    const [filteredCourses, setFilteredCourses] = useState([]); // Initialize with an empty array
+
     useEffect(() => {
         fetch('courses.json')
             .then(res => res.json())
-            .then(data => dispatch(courseDataAction.setAllCourses(data.courses)))
-            .catch(err => console.log(err))
+            .then(data => {
+                dispatch(courseDataAction.setAllCourses(data.courses));
+                setFilteredCourses(data.courses); // Initialize filteredCourses with all courses
+            })
+            .catch(err => console.log(err));
     }, []);
 
     const handleSearch = (e) => {
         const searchTerm = e.target.value.toLowerCase();
-        const foundCourses = courses.filter(singleCourse => (
-            singleCourse.Instructors.Name.toLowerCase().includes(searchTerm) ||
-            singleCourse.CourseName.toLowerCase().includes(searchTerm)
-        ));
-        setFilteredCourses(foundCourses);
+        if (searchTerm) {
+            const foundCourses = courses.filter(singleCourse => (
+                singleCourse.Instructors.Name.toLowerCase().includes(searchTerm) ||
+                singleCourse.CourseName.toLowerCase().includes(searchTerm)
+            ));
+            setFilteredCourses(foundCourses);
+        } else {
+            setFilteredCourses(courses);
+        }
     }
+
     return (
         <section className="container py-5">
             <div className="row px-3">
@@ -39,7 +48,6 @@ const Home = () => {
                 )}
             </div>
         </section>
-
     );
 };
 
