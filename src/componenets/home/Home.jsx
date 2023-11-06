@@ -12,7 +12,6 @@ const Home = () => {
             .then(data => dispatch(courseDataAction.setAllCourses(data.courses)))
             .catch(err => console.log(err))
     }, [])
-    console.log(courses)
     return (
         <section className="container py-5">
             <div className="row">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Course = ({ data }) => {
     const { courseThumb, CourseName, CourseDuration, Instructors, Price } = data
@@ -7,14 +8,13 @@ const Course = ({ data }) => {
             <img className='course-image' height="150" src={courseThumb} alt="" srcSet="" />
             <div className="px-2 mt-3">
                 <div className="d-flex justify-content-between">
-                    <h5 className='mt-2 bg-dark bg-info d-inline-block font-weight-bold mt-2 px-2 py-1 rounded text-white'>{CourseDuration} </h5>
                     <h5 style={{ fontWeight: '900' }} className='mt-2 bg-dark bg-info d-inline-block font-weight-bold mt-2 px-2 py-1 rounded text-white'>
                         {Price}
                     </h5>
                 </div>
-                <h5 style={{ fontWeight: '900' }} className='mt-2 '>
+                <Link className='text-decoration-none' to={`courses/${CourseName}`}><h5 style={{ fontWeight: '900' }} className='mt-2 '>
                     {CourseName}
-                </h5>
+                </h5></Link>
             </div>
             <div className="d-flex">
                 <div className='d-flex gap-2 mt-3 align-content-center'>
