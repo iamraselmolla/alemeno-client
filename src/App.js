@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Main from './componenets/Main';
 import Home from './componenets/home/Home';

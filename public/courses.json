@@ -4,18 +4,11 @@
             "CourseName": "Introduction to Python Programming",
             "courseThumb": "https://digitalclassworld.com/e-learning/storage/app/app_resources/tutor/course_thumbnail/4329/course-thumbnail-1648208030.jpg",
             "students": [],
-            "Instructors": [
-                {
-                    "Name": "Sarah Johnson",
-                    "Title": "Lead Instructor",
-                    "ImageURL": "sarah_johnson_image.jpg"
-                },
-                {
-                    "Name": "Michael Smith",
-                    "Title": "Assistant Instructor",
-                    "ImageURL": "michael_smith_image.jpg"
-                }
-            ],
+            "Instructors": {
+                "Name": "Michael Smith",
+                "Title": "Assistant Instructor",
+                "ImageURL": "michael_smith_image.jpg"
+            },
             "Description": "Learn the fundamentals of Python programming language.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "8 weeks",
@@ -101,13 +94,13 @@
             "CourseName": "Web Development Fundamentals",
             "courseThumb": "https://qph.cf2.quoracdn.net/main-qimg-260ae1951e2b6c24d50ddfe2efdda468",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "David Lee",
                     "Title": "Instructor",
                     "ImageURL": "instructor_image_url.jpg"
                 }
-            ],
+            ,
             "Description": "An introduction to web development technologies and concepts.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "10 weeks",
@@ -207,13 +200,13 @@
             "CourseName": "Introduction to C Programming",
             "courseThumb": "https://www.alct.lk/assets/img/c-pro.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "John Smith",
                     "Title": "Lead Instructor",
                     "ImageURL": "john_smith_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn the basics of the C programming language.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "6 weeks",
@@ -285,13 +278,13 @@
             "CourseName": "C++ Programming Fundamentals",
             "courseThumb": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_CPP.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Emily Brown",
                     "Title": "Instructor",
                     "ImageURL": "emily_brown_image.jpg"
                 }
-            ],
+            ,
             "Description": "An introductory course to C++ programming.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "8 weeks",
@@ -363,13 +356,13 @@
             "CourseName": "PHP Web Development",
             "courseThumb": "https://cursin.net/wp-content/uploads/2023/06/php-Thumbnail-1200-x-630.jpg.webp",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Laura Davis",
                     "Title": "Lead Instructor",
                     "ImageURL": "laura_davis_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn PHP and web development for building dynamic websites.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "10 weeks",
@@ -455,13 +448,13 @@
             "CourseName": "WordPress Website Development",
             "courseThumb": "https://brassringwebdesign.com/wp-content/uploads/2017/09/hands-wp-ball-1024x476.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Mark Wilson",
                     "Title": "Lead Instructor",
                     "ImageURL": "mark_wilson_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn how to build websites using WordPress CMS.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "8 weeks",
@@ -540,13 +533,13 @@
             "CourseName": "Ruby on Rails Web Development",
             "courseThumb": "https://img-c.udemycdn.com/course/750x422/2519558_7fdc_14.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Jennifer Adams",
                     "Title": "Lead Instructor",
                     "ImageURL": "jennifer_adams_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn web development with Ruby on Rails framework.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "12 weeks",
@@ -618,13 +611,13 @@
             "CourseName": "Git and GitHub Mastery",
             "courseThumb": "https://res.cloudinary.com/practicaldev/image/fetch/s--oVyFGbtN--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7ce4oq75sia6ni6q46s3.png",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Kevin Johnson",
                     "Title": "Lead Instructor",
                     "ImageURL": "kevin_johnson_image.jpg"
                 }
-            ],
+            ,
             "Description": "Master version control with Git and collaboration using GitHub.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "6 weeks",
@@ -696,13 +689,13 @@
             "CourseName": "ASP.NET Web Development",
             "courseThumb": "https://ipc.alquds.edu/wp-content/uploads/2018/07/237128_e61b_4.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Michelle Adams",
                     "Title": "Lead Instructor",
                     "ImageURL": "michelle_adams_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn web development with ASP.NET framework and C#.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "10 weeks",
@@ -774,13 +767,13 @@
             "CourseName": "Angular Web Development",
             "courseThumb": "https://nullclass.com/wp-content/uploads/2022/02/best-angular-training-courses-online.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "David Lee",
                     "Title": "Lead Instructor",
                     "ImageURL": "david_lee_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn web development with the Angular framework.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "12 weeks",
@@ -852,13 +845,13 @@
             "CourseName": "React Web Development",
             "courseThumb": "https://www.freecodecamp.org/news/content/images/2021/07/reactcourse.png",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Sarah Johnson",
                     "Title": "Lead Instructor",
                     "ImageURL": "sarah_johnson_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn web development with the React library and JavaScript.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "10 weeks",
@@ -930,13 +923,13 @@
             "CourseName": "Vue.js Front-End Development",
             "courseThumb": "https://www.vuemastery.com/images/facebook_social_image.png",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Emma Turner",
                     "Title": "Lead Instructor",
                     "ImageURL": "emma_turner_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn front-end web development with the Vue.js framework.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "10 weeks",
@@ -1008,13 +1001,13 @@
             "CourseName": "Laravel Web Development",
             "courseThumb": "https://www.excelptp.com/wp-content/uploads/2021/05/laravel-banner-img.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Daniel Clark",
                     "Title": "Lead Instructor",
                     "ImageURL": "daniel_clark_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn web development with the Laravel framework using PHP.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "12 weeks",
@@ -1086,13 +1079,13 @@
             "CourseName": "CodeIgniter Web Development",
             "courseThumb": "https://www.excelptp.com/wp-content/uploads/2021/05/codeigneter-banner-img.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Lucy Roberts",
                     "Title": "Lead Instructor",
                     "ImageURL": "lucy_roberts_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn web development with the CodeIgniter framework using PHP.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "8 weeks",
@@ -1164,13 +1157,13 @@
             "CourseName": "Java Programming Fundamentals",
             "courseThumb": "https://mindqsystems.com/wp-content/uploads/2019/08/Core-Java-Training.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "John Anderson",
                     "Title": "Lead Instructor",
                     "ImageURL": "john_anderson_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn the fundamentals of Java programming language.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "10 weeks",
@@ -1242,13 +1235,13 @@
             "CourseName": "Mastering CSS and Web Design",
             "courseThumb": "https://images.ctfassets.net/aq13lwl6616q/5Vsjisy7BEI69JhQoonaZh/e3dad68c580259a55d3389cb897e5291/complete_web_devloper_zero_to_mastery.png",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Sophia Roberts",
                     "Title": "Lead Instructor",
                     "ImageURL": "sophia_roberts_image.jpg"
                 }
-            ],
+            ,
             "Description": "Master Cascading Style Sheets (CSS) for web design.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "8 weeks",
@@ -1320,13 +1313,13 @@
             "CourseName": "Artificial Intelligence and Machine Learning",
             "courseThumb": "https://www.rrce.org/blog/wp-content/uploads/2022/11/Artifical-Intelligence.-Machine-Learning-at-RRCE.png",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Alex Davis",
                     "Title": "Lead Instructor",
                     "ImageURL": "alex_davis_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn the fundamentals of artificial intelligence and machine learning.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "12 weeks",
@@ -1398,13 +1391,13 @@
             "CourseName": "MongoDB Fundamentals and NoSQL Databases",
             "courseThumb": "https://img-c.udemycdn.com/course/750x422/1906852_93c6_2.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Laura Mitchell",
                     "Title": "Lead Instructor",
                     "ImageURL": "laura_mitchell_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn the fundamentals of MongoDB and NoSQL databases.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "8 weeks",
@@ -1476,13 +1469,13 @@
             "CourseName": "MySQL Database Development and Administration",
             "courseThumb": "https://www.filepicker.io/api/file/20zAjZGRneQ05Rh0sCrg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Robert Turner",
                     "Title": "Lead Instructor",
                     "ImageURL": "robert_turner_image.jpg"
                 }
-            ],
+            ,
             "Description": "Master MySQL database development and administration.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "10 weeks",
@@ -1554,13 +1547,13 @@
             "CourseName": "PostgreSQL Database Development and Administration",
             "courseThumb": "https://i.ytimg.com/vi/SpfIwlAYaKk/maxresdefault.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Emily Davis",
                     "Title": "Lead Instructor",
                     "ImageURL": "emily_davis_image.jpg"
                 }
-            ],
+            ,
             "Description": "Master PostgreSQL database development and administration.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "12 weeks",
@@ -1632,13 +1625,13 @@
             "CourseName": "Docker Containers and Orchestration",
             "courseThumb": "https://img-b.udemycdn.com/course/750x422/1948098_8faf_8.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Samuel Baker",
                     "Title": "Lead Instructor",
                     "ImageURL": "samuel_baker_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn Docker containerization and container orchestration with Kubernetes.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "8 weeks",
@@ -1710,13 +1703,13 @@
             "CourseName": "AWS Cloud Computing and Services",
             "courseThumb": "https://d2908q01vomqb2.cloudfront.net/9109c85a45b703f87f1413a405549a2cea9ab556/2021/05/25/CourseLaunch__Blog_AllCourses-1024x536.png",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Oliver Clark",
                     "Title": "Lead Instructor",
                     "ImageURL": "oliver_clark_image.jpg"
                 }
-            ],
+            ,
             "Description": "Master Amazon Web Services (AWS) cloud computing and services.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "12 weeks",
@@ -1788,13 +1781,13 @@
             "CourseName": "CI/CD Pipeline Automation and DevOps",
             "courseThumb": "https://img-c.udemycdn.com/course/750x422/2779762_87e5_4.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Daniel Smith",
                     "Title": "Lead Instructor",
                     "ImageURL": "daniel_smith_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn Continuous Integration and Continuous Deployment (CI/CD) pipeline automation and DevOps practices.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "10 weeks",
@@ -1866,13 +1859,13 @@
             "CourseName": "Oracle Database Development and Administration",
             "courseThumb": "https://peoplentech.com.bd/storage/upload/file/iQVJ0kQ6DXM5mVJ9CCIJpPVfxBGvblzUoT4tpusu.jpeg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Sarah Wilson",
                     "Title": "Lead Instructor",
                     "ImageURL": "sarah_wilson_image.jpg"
                 }
-            ],
+            ,
             "Description": "Master Oracle Database development and administration.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "12 weeks",
@@ -1944,13 +1937,13 @@
             "CourseName": "React Native App Development",
             "courseThumb": "https://i.ytimg.com/vi/VozPNrt-LfE/maxresdefault.jpg",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "David Lee",
                     "Title": "Lead Instructor",
                     "ImageURL": "david_lee_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn mobile app development with React Native.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "10 weeks",
@@ -2022,13 +2015,13 @@
             "CourseName": "Kotlin Programming for Android",
             "courseThumb": "https://www.classcentral.com/report/wp-content/uploads/2022/08/BCG-Kotlint-Featured-Banner.png",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Sophia Turner",
                     "Title": "Lead Instructor",
                     "ImageURL": "sophia_turner_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn Kotlin programming for Android app development.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "8 weeks",
@@ -2100,13 +2093,13 @@
             "CourseName": "Swift Programming for iOS",
             "courseThumb": "https://www.classcentral.com/report/wp-content/uploads/2022/08/BCG-Swift-Featured-Banner.png",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "Michael Smith",
                     "Title": "Lead Instructor",
                     "ImageURL": "michael_smith_image.jpg"
                 }
-            ],
+            ,
             "Description": "Learn Swift programming for iOS app development.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "10 weeks",
@@ -2178,13 +2171,13 @@
             "CourseName": "C# Programming for Software Development",
             "courseThumb": "https://www.classcentral.com/report/wp-content/uploads/2022/07/C-BCG-Banner.png",
             "students": [],
-            "Instructors": [
+            "Instructors": 
                 {
                     "Name": "John Davis",
                     "Title": "Lead Instructor",
                     "ImageURL": "john_davis_image.jpg"
                 }
-            ],
+            ,
             "Description": "Master C# programming for software development.",
             "EnrollmentStatus": "Open",
             "CourseDuration": "12 weeks",

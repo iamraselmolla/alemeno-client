@@ -14,12 +14,12 @@ const Home = () => {
     }, [])
     console.log(courses)
     return (
-        <section className="container">
+        <section className="container py-5">
             <div className="row">
                 {courses?.length > 0 ? <>
                     {courses?.map(singleCourse => (
-                        <div className="col-md-3">
-                            <Course data={singleCourse} />
+                        <div className="col-lg-4 col-md-2 pb-1 my-2">
+                            <Course key={singleCourse?.courseName} data={singleCourse} />
                         </div>
                     ))}
                 </> : <>
