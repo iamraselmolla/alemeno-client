@@ -1,6 +1,7 @@
 [
     {
         "CourseName": "Introduction to Python Programming",
+        "sold": "false",
         "courseThumb": "https://digitalclassworld.com/e-learning/storage/app/app_resources/tutor/course_thumbnail/4329/course-thumbnail-1648208030.jpg",
         "students": [],
         "Instructors": {
@@ -11,7 +12,7 @@
         "Description": "Learn the fundamentals of Python programming language.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "8 weeks",
-        "Price": "$249.99",
+        "Price": "249.99",
         "Schedule": {
             "Start": "2023-02-15",
             "End": "2023-04-10",
@@ -91,6 +92,7 @@
     },
     {
         "CourseName": "Web Development Fundamentals",
+        "sold": "false",
         "courseThumb": "https://qph.cf2.quoracdn.net/main-qimg-260ae1951e2b6c24d50ddfe2efdda468",
         "students": [],
         "Instructors": {
@@ -101,7 +103,7 @@
         "Description": "An introduction to web development technologies and concepts.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "10 weeks",
-        "Price": "$299.99",
+        "Price": "299.99",
         "Schedule": {
             "Start": "2023-03-10",
             "End": "2023-05-18",
@@ -195,6 +197,7 @@
     },
     {
         "CourseName": "Introduction to C Programming",
+        "sold": "false",
         "courseThumb": "https://www.alct.lk/assets/img/c-pro.jpg",
         "students": [],
         "Instructors": {
@@ -205,7 +208,7 @@
         "Description": "Learn the basics of the C programming language.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "6 weeks",
-        "Price": "$199.99",
+        "Price": "199.99",
         "Schedule": {
             "Start": "2023-04-01",
             "End": "2023-05-15",
@@ -271,6 +274,7 @@
     },
     {
         "CourseName": "C++ Programming Fundamentals",
+        "sold": "false",
         "courseThumb": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_CPP.jpg",
         "students": [],
         "Instructors": {
@@ -281,7 +285,7 @@
         "Description": "An introductory course to C++ programming.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "8 weeks",
-        "Price": "$249.99",
+        "Price": "249.99",
         "Schedule": {
             "Start": "2023-03-15",
             "End": "2023-05-10",
@@ -347,6 +351,7 @@
     },
     {
         "CourseName": "PHP Web Development",
+        "sold": "false",
         "courseThumb": "https://cursin.net/wp-content/uploads/2023/06/php-Thumbnail-1200-x-630.jpg.webp",
         "students": [],
         "Instructors": {
@@ -357,7 +362,7 @@
         "Description": "Learn PHP and web development for building dynamic websites.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "10 weeks",
-        "Price": "$299.99",
+        "Price": "299.99",
         "Schedule": {
             "Start": "2023-04-10",
             "End": "2023-06-20",
@@ -437,6 +442,7 @@
     },
     {
         "CourseName": "WordPress Website Development",
+        "sold": "false",
         "courseThumb": "https://brassringwebdesign.com/wp-content/uploads/2017/09/hands-wp-ball-1024x476.jpg",
         "students": [],
         "Instructors": {
@@ -447,7 +453,7 @@
         "Description": "Learn how to build websites using WordPress CMS.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "8 weeks",
-        "Price": "$199.99",
+        "Price": "199.99",
         "Schedule": {
             "Start": "2023-04-20",
             "End": "2023-06-10",
@@ -520,6 +526,7 @@
     },
     {
         "CourseName": "Ruby on Rails Web Development",
+        "sold": "false",
         "courseThumb": "https://img-c.udemycdn.com/course/750x422/2519558_7fdc_14.jpg",
         "students": [],
         "Instructors": {
@@ -530,7 +537,7 @@
         "Description": "Learn web development with Ruby on Rails framework.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "12 weeks",
-        "Price": "$349.99",
+        "Price": "349.99",
         "Schedule": {
             "Start": "2023-03-30",
             "End": "2023-06-15",
@@ -596,6 +603,7 @@
     },
     {
         "CourseName": "Git and GitHub Mastery",
+        "sold": "false",
         "courseThumb": "https://res.cloudinary.com/practicaldev/image/fetch/s--oVyFGbtN--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7ce4oq75sia6ni6q46s3.png",
         "students": [],
         "Instructors": {
@@ -606,7 +614,7 @@
         "Description": "Master version control with Git and collaboration using GitHub.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "6 weeks",
-        "Price": "$199.99",
+        "Price": "199.99",
         "Schedule": {
             "Start": "2023-04-10",
             "End": "2023-05-22",
@@ -672,6 +680,7 @@
     },
     {
         "CourseName": "ASP.NET Web Development",
+        "sold": "false",
         "courseThumb": "https://ipc.alquds.edu/wp-content/uploads/2018/07/237128_e61b_4.jpg",
         "students": [],
         "Instructors": {
@@ -682,7 +691,7 @@
         "Description": "Learn web development with ASP.NET framework and C#.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "10 weeks",
-        "Price": "$299.99",
+        "Price": "299.99",
         "Schedule": {
             "Start": "2023-03-20",
             "End": "2023-05-25",
@@ -748,6 +757,7 @@
     },
     {
         "CourseName": "Angular Web Development",
+        "sold": "false",
         "courseThumb": "https://nullclass.com/wp-content/uploads/2022/02/best-angular-training-courses-online.jpg",
         "students": [],
         "Instructors": {
@@ -758,7 +768,7 @@
         "Description": "Learn web development with the Angular framework.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "12 weeks",
-        "Price": "$349.99",
+        "Price": "349.99",
         "Schedule": {
             "Start": "2023-03-15",
             "End": "2023-06-05",
@@ -824,6 +834,7 @@
     },
     {
         "CourseName": "React Web Development",
+        "sold": "false",
         "courseThumb": "https://www.freecodecamp.org/news/content/images/2021/07/reactcourse.png",
         "students": [],
         "Instructors": {
@@ -834,7 +845,7 @@
         "Description": "Learn web development with the React library and JavaScript.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "10 weeks",
-        "Price": "$299.99",
+        "Price": "299.99",
         "Schedule": {
             "Start": "2023-03-10",
             "End": "2023-05-20",
@@ -900,6 +911,7 @@
     },
     {
         "CourseName": "Vue.js Front-End Development",
+        "sold": "false",
         "courseThumb": "https://www.vuemastery.com/images/facebook_social_image.png",
         "students": [],
         "Instructors": {
@@ -910,7 +922,7 @@
         "Description": "Learn front-end web development with the Vue.js framework.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "10 weeks",
-        "Price": "$299.99",
+        "Price": "299.99",
         "Schedule": {
             "Start": "2023-04-05",
             "End": "2023-06-14",
@@ -976,6 +988,7 @@
     },
     {
         "CourseName": "Laravel Web Development",
+        "sold": "false",
         "courseThumb": "https://www.excelptp.com/wp-content/uploads/2021/05/laravel-banner-img.jpg",
         "students": [],
         "Instructors": {
@@ -986,7 +999,7 @@
         "Description": "Learn web development with the Laravel framework using PHP.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "12 weeks",
-        "Price": "$349.99",
+        "Price": "349.99",
         "Schedule": {
             "Start": "2023-03-15",
             "End": "2023-06-05",
@@ -1052,6 +1065,7 @@
     },
     {
         "CourseName": "CodeIgniter Web Development",
+        "sold": "false",
         "courseThumb": "https://www.excelptp.com/wp-content/uploads/2021/05/codeigneter-banner-img.jpg",
         "students": [],
         "Instructors": {
@@ -1062,7 +1076,7 @@
         "Description": "Learn web development with the CodeIgniter framework using PHP.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "8 weeks",
-        "Price": "$249.99",
+        "Price": "249.99",
         "Schedule": {
             "Start": "2023-04-20",
             "End": "2023-06-10",
@@ -1128,6 +1142,7 @@
     },
     {
         "CourseName": "Java Programming Fundamentals",
+        "sold": "false",
         "courseThumb": "https://mindqsystems.com/wp-content/uploads/2019/08/Core-Java-Training.jpg",
         "students": [],
         "Instructors": {
@@ -1138,7 +1153,7 @@
         "Description": "Learn the fundamentals of Java programming language.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "10 weeks",
-        "Price": "$299.99",
+        "Price": "299.99",
         "Schedule": {
             "Start": "2023-04-05",
             "End": "2023-06-14",
@@ -1204,6 +1219,7 @@
     },
     {
         "CourseName": "Mastering CSS and Web Design",
+        "sold": "false",
         "courseThumb": "https://images.ctfassets.net/aq13lwl6616q/5Vsjisy7BEI69JhQoonaZh/e3dad68c580259a55d3389cb897e5291/complete_web_devloper_zero_to_mastery.png",
         "students": [],
         "Instructors": {
@@ -1214,7 +1230,7 @@
         "Description": "Master Cascading Style Sheets (CSS) for web design.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "8 weeks",
-        "Price": "$249.99",
+        "Price": "249.99",
         "Schedule": {
             "Start": "2023-03-25",
             "End": "2023-05-19",
@@ -1280,6 +1296,7 @@
     },
     {
         "CourseName": "Artificial Intelligence and Machine Learning",
+        "sold": "false",
         "courseThumb": "https://www.rrce.org/blog/wp-content/uploads/2022/11/Artifical-Intelligence.-Machine-Learning-at-RRCE.png",
         "students": [],
         "Instructors": {
@@ -1290,7 +1307,7 @@
         "Description": "Learn the fundamentals of artificial intelligence and machine learning.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "12 weeks",
-        "Price": "$349.99",
+        "Price": "349.99",
         "Schedule": {
             "Start": "2023-03-10",
             "End": "2023-06-02",
@@ -1356,6 +1373,7 @@
     },
     {
         "CourseName": "MongoDB Fundamentals",
+        "sold": "false",
         "courseThumb": "https://img-c.udemycdn.com/course/750x422/1906852_93c6_2.jpg",
         "students": [],
         "Instructors": {
@@ -1366,7 +1384,7 @@
         "Description": "Learn the fundamentals of MongoDB and NoSQL databases.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "8 weeks",
-        "Price": "$249.99",
+        "Price": "249.99",
         "Schedule": {
             "Start": "2023-04-15",
             "End": "2023-06-07",
@@ -1432,6 +1450,7 @@
     },
     {
         "CourseName": "MySQL Development and Administration",
+        "sold": "false",
         "courseThumb": "https://www.filepicker.io/api/file/20zAjZGRneQ05Rh0sCrg",
         "students": [],
         "Instructors": {
@@ -1442,7 +1461,7 @@
         "Description": "Master MySQL database development and administration.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "10 weeks",
-        "Price": "$299.99",
+        "Price": "299.99",
         "Schedule": {
             "Start": "2023-04-10",
             "End": "2023-06-19",
@@ -1508,6 +1527,7 @@
     },
     {
         "CourseName": "PostgreSQL Development, Administration",
+        "sold": "false",
         "courseThumb": "https://i.ytimg.com/vi/SpfIwlAYaKk/maxresdefault.jpg",
         "students": [],
         "Instructors": {
@@ -1518,7 +1538,7 @@
         "Description": "Master PostgreSQL database development and administration.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "12 weeks",
-        "Price": "$349.99",
+        "Price": "349.99",
         "Schedule": {
             "Start": "2023-03-20",
             "End": "2023-06-12",
@@ -1584,6 +1604,7 @@
     },
     {
         "CourseName": "Docker Containers and Orchestration",
+        "sold": "false",
         "courseThumb": "https://img-b.udemycdn.com/course/750x422/1948098_8faf_8.jpg",
         "students": [],
         "Instructors": {
@@ -1594,7 +1615,7 @@
         "Description": "Learn Docker containerization and container orchestration with Kubernetes.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "8 weeks",
-        "Price": "$249.99",
+        "Price": "249.99",
         "Schedule": {
             "Start": "2023-04-20",
             "End": "2023-06-10",
@@ -1660,6 +1681,7 @@
     },
     {
         "CourseName": "AWS Cloud Computing and Services",
+        "sold": "false",
         "courseThumb": "https://d2908q01vomqb2.cloudfront.net/9109c85a45b703f87f1413a405549a2cea9ab556/2021/05/25/CourseLaunch__Blog_AllCourses-1024x536.png",
         "students": [],
         "Instructors": {
@@ -1670,7 +1692,7 @@
         "Description": "Master Amazon Web Services (AWS) cloud computing and services.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "12 weeks",
-        "Price": "$349.99",
+        "Price": "349.99",
         "Schedule": {
             "Start": "2023-03-15",
             "End": "2023-06-05",
@@ -1736,6 +1758,7 @@
     },
     {
         "CourseName": "CI/CD Pipeline Automation and DevOps",
+        "sold": "false",
         "courseThumb": "https://img-c.udemycdn.com/course/750x422/2779762_87e5_4.jpg",
         "students": [],
         "Instructors": {
@@ -1746,7 +1769,7 @@
         "Description": "Learn Continuous Integration and Continuous Deployment (CI/CD) pipeline automation and DevOps practices.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "10 weeks",
-        "Price": "$299.99",
+        "Price": "299.99",
         "Schedule": {
             "Start": "2023-04-01",
             "End": "2023-06-09",
@@ -1812,6 +1835,7 @@
     },
     {
         "CourseName": "Oracle Development and Administration",
+        "sold": "false",
         "courseThumb": "https://peoplentech.com.bd/storage/upload/file/iQVJ0kQ6DXM5mVJ9CCIJpPVfxBGvblzUoT4tpusu.jpeg",
         "students": [],
         "Instructors": {
@@ -1822,7 +1846,7 @@
         "Description": "Master Oracle Database development and administration.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "12 weeks",
-        "Price": "$349.99",
+        "Price": "349.99",
         "Schedule": {
             "Start": "2023-03-15",
             "End": "2023-06-05",
@@ -1888,6 +1912,7 @@
     },
     {
         "CourseName": "React Native App Development",
+        "sold": "false",
         "courseThumb": "https://i.ytimg.com/vi/VozPNrt-LfE/maxresdefault.jpg",
         "students": [],
         "Instructors": {
@@ -1898,7 +1923,7 @@
         "Description": "Learn mobile app development with React Native.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "10 weeks",
-        "Price": "$299.99",
+        "Price": "299.99",
         "Schedule": {
             "Start": "2023-04-10",
             "End": "2023-06-19",
@@ -1964,6 +1989,7 @@
     },
     {
         "CourseName": "Kotlin Programming for Android",
+        "sold": "false",
         "courseThumb": "https://www.classcentral.com/report/wp-content/uploads/2022/08/BCG-Kotlint-Featured-Banner.png",
         "students": [],
         "Instructors": {
@@ -1974,7 +2000,7 @@
         "Description": "Learn Kotlin programming for Android app development.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "8 weeks",
-        "Price": "$249.99",
+        "Price": "249.99",
         "Schedule": {
             "Start": "2023-04-15",
             "End": "2023-06-07",
@@ -2040,6 +2066,7 @@
     },
     {
         "CourseName": "Swift Programming for iOS",
+        "sold": "false",
         "courseThumb": "https://www.classcentral.com/report/wp-content/uploads/2022/08/BCG-Swift-Featured-Banner.png",
         "students": [],
         "Instructors": {
@@ -2050,7 +2077,7 @@
         "Description": "Learn Swift programming for iOS app development.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "10 weeks",
-        "Price": "$299.99",
+        "Price": "299.99",
         "Schedule": {
             "Start": "2023-04-10",
             "End": "2023-06-19",
@@ -2116,6 +2143,7 @@
     },
     {
         "CourseName": "C# Programming for Software",
+        "sold": "false",
         "courseThumb": "https://www.classcentral.com/report/wp-content/uploads/2022/07/C-BCG-Banner.png",
         "students": [],
         "Instructors": {
@@ -2126,7 +2154,7 @@
         "Description": "Master C# programming for software development.",
         "EnrollmentStatus": "Open",
         "CourseDuration": "12 weeks",
-        "Price": "$349.99",
+        "Price": "349.99",
         "Schedule": {
             "Start": "2023-03-15",
             "End": "2023-06-05",

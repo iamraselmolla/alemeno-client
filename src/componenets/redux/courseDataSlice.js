@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit"
 
 const initialState = {
-    courses: {}
+    courses: {},
+    // againFetch: 0
 }
 
 const courseDataSlice = createSlice({
@@ -11,6 +12,9 @@ const courseDataSlice = createSlice({
         setAllCourses(state, action) {
             state.courses = action?.payload;
         },
+        // setFetchAgain(state, action) {
+        //     state.againFetch++
+        // }
     }
 });
 export default courseDataSlice;

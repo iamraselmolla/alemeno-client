@@ -1,15 +1,23 @@
-import React, { useEffect, useState } from 'react';
-import { useSelector } from 'react-redux';
-import { useParams } from 'react-router-dom';
+import React, { useContext, useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
 import According from './According';
 import axios from 'axios';
 import { server } from './const';
 import { Spinner } from 'react-bootstrap';
+import { Elements } from '@stripe/react-stripe-js';
+import { loadStripe } from '@stripe/stripe-js';
+import Checkout from '../stripe/Checkout';
+import { AuthContext } from '../AuthContext/AuthProvider';
+import toast from 'react-hot-toast';
+const stripePromise = loadStripe('pk_test_51M97QKAix5nU0JTZrubRM70QGikR7wSSdmYLQt5sYp96CcokRGKFeOuz6M4c6pt5QTyBiOoc2D2cQFNvw6QTlAv600jrUnsZNc');
 
 const CourseDetails = () => {
-
+    const { user } = useContext(AuthContext)
     const [course, setCourse] = useState(null);
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(false);
+    const [showModal, setShowModal] = useState(false);
+    const [refetch, setRefetch] = useState(false)
+
 
 
     const { id } = useParams();
@@ -27,10 +35,14 @@ const CourseDetails = () => {
             }
         }
         fetchData()
-    }, [id])
+    }, [id, refetch])
 
-
-
+    const handleModalShow = () => {
+        if (!user) {
+            return toast.error("Please login First")
+        }
+        setShowModal(!showModal)
+    }
     return (
 
 
@@ -51,8 +63,21 @@ const CourseDetails = () => {
                         <p><strong>Schedule:</strong> {course?.Schedule.Start} - {course?.Schedule.End}<br />
                             <strong>Days:</strong> {course?.Schedule.Days.join(", ")}<br />
                             <strong>Time:</strong> {course?.Schedule.Time}</p>
+                        {showModal && <div className='mb-4'>
+                            <Elements stripe={stripePromise}>
+                                <Checkout
+                                    itemPrice={course?.Price}
+                                    product_id={course?._id}
+                                    setRefetch={setRefetch}
+                                    refetch={refetch}
+                                />
+                            </Elements>
+                        </div>}
+                        {course?.students?.some(singleStudent => singleStudent?.studentsInfo?.email === user?.email) ? 'You already purchased this course' : <button onClick={handleModalShow} className='btn btn-outline-success  w-100 '>
 
-                        <button className='btn btn-outline-success  w-100 '>Buy Now</button>
+                            buy Now
+                        </button>}
+
                     </div>
                     <div className="col-md-6">
                         <h2>Syllabus</h2>

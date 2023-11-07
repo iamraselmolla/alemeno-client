@@ -1,8 +1,12 @@
 import React from 'react';
+import { ProgressBar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Course = ({ data }) => {
-    const { courseThumb, CourseName, CourseDuration, Instructors, Price, _id } = data
+    const { courseThumb, CourseName, Schedule, CourseDuration, Instructors, Price, _id } = data;
+    const currentPath = window.location.pathname
+    console.log(currentPath)
+
     return (
         <div className='shadow-lg rounded-bottom py-2 pb-4 px-1'>
             <img className='course-image' height="150" src={courseThumb} alt="" srcSet="" />
@@ -12,7 +16,7 @@ const Course = ({ data }) => {
                         {Price}
                     </h5>
                 </div>
-                <Link className='text-decoration-none' to={`courses/${_id}`}><h5 style={{ fontWeight: '900' }} className='mt-2 '>
+                <Link className='text-decoration-none' to={`/courses/${_id}`}><h5 style={{ fontWeight: '900' }} className='mt-2 '>
                     {CourseName}
                 </h5></Link>
             </div>
@@ -34,6 +38,14 @@ const Course = ({ data }) => {
 
                 </div>
             </div>
+            {currentPath == '/dashboard' && <div className='mt-4'>
+                <div><ProgressBar variant="success" now={Price / 5} /></div>
+                <div className='d-flex'>
+                    <div style={{ fontWeight: '900' }} className="text-danger">
+                        Due At: {Schedule?.End}
+                    </div>
+                </div>
+            </div>}
 
         </div>
     );

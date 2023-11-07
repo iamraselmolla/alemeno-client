@@ -5,21 +5,9 @@ import { courseDataAction } from '../../redux/courseDataSlice';
 import { server } from '../../shared/const';
 
 const Home = () => {
-    const dispatch = useDispatch();
     const { courses } = useSelector(state => state.courseData);
-    const [filteredCourses, setFilteredCourses] = useState([]); // Initialize with an empty array
-
-    useEffect(() => {
-        fetch(`${server}/all-courses`)
-            .then(res => res.json())
-            .then(data => {
-
-                dispatch(courseDataAction.setAllCourses(data));
-                setFilteredCourses(data); // Initialize filteredCourses with all courses
-            })
-            .catch(err => console.log(err));
-    }, []);
-
+    const [filteredCourses, setFilteredCourses] = useState(state => courses); // Initialize with all courses by default
+    console.log(courses, filteredCourses)
     const handleSearch = (e) => {
         const searchTerm = e.target.value.toLowerCase();
         if (searchTerm) {
@@ -29,7 +17,7 @@ const Home = () => {
             ));
             setFilteredCourses(foundCourses);
         } else {
-            setFilteredCourses(courses);
+            setFilteredCourses(courses); // Set it back to the original courses when searchTerm is empty
         }
     }
 

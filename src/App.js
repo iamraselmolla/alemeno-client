@@ -10,6 +10,7 @@ import Login from './componenets/page/login/Login';
 import Register from './componenets/page/register/Register';
 import Dashboard from './componenets/page/dashboard/Dashboard';
 import PrivateRoute from './componenets/router/PrivateRoute';
+import PaymentItem from './componenets/stripe/Payment';
 
 function App() {
 
@@ -38,7 +39,7 @@ function App() {
         {
           path: '/dashboard',
           element: <PrivateRoute><Dashboard /></PrivateRoute>
-        }
+        },
       ]
     }
   ])
