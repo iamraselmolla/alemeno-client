@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Course from '../../shared/Course';
 import { useDispatch, useSelector } from 'react-redux';
 import { courseDataAction } from '../../redux/courseDataSlice';
+import { server } from '../../shared/const';
 
 const Home = () => {
     const dispatch = useDispatch();
@@ -9,11 +10,12 @@ const Home = () => {
     const [filteredCourses, setFilteredCourses] = useState([]); // Initialize with an empty array
 
     useEffect(() => {
-        fetch('courses.json')
+        fetch(`${server}/all-courses`)
             .then(res => res.json())
             .then(data => {
-                dispatch(courseDataAction.setAllCourses(data.courses));
-                setFilteredCourses(data.courses); // Initialize filteredCourses with all courses
+
+                dispatch(courseDataAction.setAllCourses(data));
+                setFilteredCourses(data); // Initialize filteredCourses with all courses
             })
             .catch(err => console.log(err));
     }, []);
@@ -21,7 +23,7 @@ const Home = () => {
     const handleSearch = (e) => {
         const searchTerm = e.target.value.toLowerCase();
         if (searchTerm) {
-            const foundCourses = courses.filter(singleCourse => (
+            const foundCourses = courses?.filter(singleCourse => (
                 singleCourse.Instructors.Name.toLowerCase().includes(searchTerm) ||
                 singleCourse.CourseName.toLowerCase().includes(searchTerm)
             ));
@@ -37,7 +39,7 @@ const Home = () => {
                 <input onChange={handleSearch} className='form-control w-100 mb-2' placeholder="Search Courses" />
             </div>
             <div className="row">
-                {filteredCourses.length > 0 ? (
+                {filteredCourses?.length > 0 ? (
                     filteredCourses.map(singleCourse => (
                         <div className="col-lg-4 col-md-2 pb-1 my-2" key={singleCourse.courseName}>
                             <Course data={singleCourse} />

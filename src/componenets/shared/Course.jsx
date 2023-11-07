@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Course = ({ data }) => {
-    const { courseThumb, CourseName, CourseDuration, Instructors, Price } = data
+    const { courseThumb, CourseName, CourseDuration, Instructors, Price, _id } = data
     return (
         <div className='shadow-lg rounded-bottom py-2 pb-4 px-1'>
             <img className='course-image' height="150" src={courseThumb} alt="" srcSet="" />
@@ -12,7 +12,7 @@ const Course = ({ data }) => {
                         {Price}
                     </h5>
                 </div>
-                <Link className='text-decoration-none' to={`courses/${CourseName}`}><h5 style={{ fontWeight: '900' }} className='mt-2 '>
+                <Link className='text-decoration-none' to={`courses/${_id}`}><h5 style={{ fontWeight: '900' }} className='mt-2 '>
                     {CourseName}
                 </h5></Link>
             </div>
