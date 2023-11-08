@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { ProgressBar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../AuthContext/AuthProvider';
 
 const Course = ({ data }) => {
-    const { courseThumb, CourseName, Schedule, CourseDuration, Instructors, Price, _id } = data;
-    const currentPath = window.location.pathname
-    console.log(currentPath)
+    const {user} = useContext(AuthContext)
+    const { courseThumb, CourseName, Schedule, CourseDuration,students, Instructors, Price, _id } = data;
+    const currentPath = window.location.pathname;
+    const findStudents = students?.find(singleStudent => singleStudent?.studentsInfo?.email === user?.email);
+
+
+    const handleCompleted = (id) => {
+        
+    }
+ 
 
     return (
         <div className='shadow-lg rounded-bottom py-2 pb-4 px-1'>
@@ -26,7 +34,7 @@ const Course = ({ data }) => {
                     <div className="author_info">
                         <div className="d-flex flex-column">
                             <h6 style={{ fontWeight: '900' }} className="mb-0">
-                                {Instructors?.Name}
+                                {Instructors?.Name && Instructors?.Name}
                             </h6>
                             <p className="mb-0">
                                 {Instructors?.Title}
@@ -39,11 +47,16 @@ const Course = ({ data }) => {
                 </div>
             </div>
             {currentPath == '/dashboard' && <div className='mt-4'>
-                <div><ProgressBar variant="success" now={Price / 5} /></div>
-                <div className='d-flex'>
-                    <div style={{ fontWeight: '900' }} className="text-danger">
-                        Due At: {Schedule?.End}
+                <div><ProgressBar variant="success" now={findStudents?.progress + 10} /></div>
+                <div className='d-flex justify-content-between mt-2 align-content-center'>
+                    <div style={{ fontWeight: '900' }} className="text-danger d-flex align-content-center">
+                       <p className="mb-0">
+                       Due At: {Schedule?.End}
+                       </p>
                     </div>
+                    <button onClick={() => handleCompleted(_id)} className='bg-success text-white px-3 py-2 rounded-1 border-0'>
+                        marked as complete
+                    </button>
                 </div>
             </div>}
 

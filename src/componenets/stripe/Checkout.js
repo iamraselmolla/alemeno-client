@@ -74,11 +74,12 @@ const Checkout = ({ itemPrice, product_id, setRefetch, refetch }) => {
                 const payment_type = paymentMethod?.card.brand + " " + paymentMethod.type;
                 const paymentTime = new Date();
                 const { displayName, email } = user
-                const allPaymentandUserInfo = { studentsInfo: { name: displayName, email }, paymentInfo: { payment_id, payment_type, paymentTime } }
+                const allPaymentandUserInfo = { studentsInfo: { name: displayName, email }, paymentInfo: { payment_id, payment_type, paymentTime }, progress:0 }
 
                 axios.put(`${server}/enrolled`, {
                     id: product_id,
-                    allPaymentandUserInfo
+                    allPaymentandUserInfo,
+                    
                 })
                     .then(data => {
                         toast.success("Enrolled Successfully")
