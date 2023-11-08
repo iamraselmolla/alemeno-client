@@ -1,14 +1,20 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../AuthContext/AuthProvider';
 import { useSelector } from 'react-redux';
 import Course from '../../shared/Course';
 
 const Dashboard = () => {
     const { user } = useContext(AuthContext);
-    const { courses } = useSelector(state => state.courseData);
+    const { courses, againFetch } = useSelector(state => state.courseData);
+    const [allCourses, setAllCourses] = useState([]);
+
+
+
 
 
     const findAllCourses = courses?.filter(singleCourse => singleCourse?.students?.some(student => student?.studentsInfo?.email === user?.email));
+
+
 
 
     return (

@@ -1,10 +1,7 @@
 import React, { createContext, useEffect, useState } from 'react';
 import { getAuth, createUserWithEmailAndPassword, signInWithPopup, signOut, onAuthStateChanged, signInWithEmailAndPassword, updateProfile } from 'firebase/auth'
 import app from '../firebase/firebase-init';
-import { Spinner } from 'react-bootstrap';
-import { useDispatch } from 'react-redux';
-import { courseDataAction } from '../redux/courseDataSlice';
-import { server } from '../shared/const';
+import { useDispatch, useSelector } from 'react-redux';
 
 export const AuthContext = createContext();
 
@@ -14,6 +11,8 @@ const AuthProvider = ({ children }) => {
     const [loading, setLoading] = useState(true);
     const [isRegistered, setIsRegistered] = useState(false);
     const [user, setUser] = useState(null);
+    const { againFetch } = useSelector(state => state.courseData)
+    console.log(againFetch)
     // User registration
     const createUser = (email, password) => {
         setLoading(true);
@@ -58,16 +57,7 @@ const AuthProvider = ({ children }) => {
     const authInfo = { createUser, setLoading, setIsRegistered, updateUserInfo, loading, user, loginWithGoogle, login, logOut }
 
 
-    useEffect(() => {
-        fetch(`${server}/all-courses`)
-            .then(res => res.json())
-            .then(data => {
 
-                dispatch(courseDataAction.setAllCourses(data));
-                // setFilteredCourses(data); // Initialize filteredCourses with all courses
-            })
-            .catch(err => console.log(err));
-    }, []);
 
     // if (loading) {
     //     return <><div className='d-flex justify-content-center  align-content-center '>

@@ -74,21 +74,21 @@ const Checkout = ({ itemPrice, product_id, setRefetch, refetch }) => {
                 const payment_type = paymentMethod?.card.brand + " " + paymentMethod.type;
                 const paymentTime = new Date();
                 const { displayName, email } = user
-                const allPaymentandUserInfo = { studentsInfo: { name: displayName, email }, paymentInfo: { payment_id, payment_type, paymentTime }, progress:0 }
+                const allPaymentandUserInfo = { studentsInfo: { name: displayName, email }, paymentInfo: { payment_id, payment_type, paymentTime }, progress: 0 }
 
                 axios.put(`${server}/enrolled`, {
                     id: product_id,
                     allPaymentandUserInfo,
-                    
+
                 })
                     .then(data => {
                         toast.success("Enrolled Successfully")
                         setRefetch(!refetch);
 
-                        // dispatch(courseDataAction.setFetchAgain())
+                        dispatch(courseDataAction.setFetchAgain())
 
                     })
-                    .catch(err => console.log(err))
+                    .catch(err => console.log(err));
             }
         }
 
