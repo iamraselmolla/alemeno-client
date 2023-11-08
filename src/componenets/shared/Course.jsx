@@ -2,6 +2,9 @@ import React, { useContext } from 'react';
 import { ProgressBar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../AuthContext/AuthProvider';
+import axios from 'axios';
+import { server } from './const';
+import toast from 'react-hot-toast';
 
 const Course = ({ data }) => {
     const {user} = useContext(AuthContext)
@@ -10,7 +13,15 @@ const Course = ({ data }) => {
     const findStudents = students?.find(singleStudent => singleStudent?.studentsInfo?.email === user?.email);
 
 
-    const handleCompleted = (id) => {
+    const handleCompleted = async (id) => {
+        if(user?.email !== findStudents?.studentsInfo?.email){
+            return toast.error('Unauthorized Attempt')
+        }
+        console.log(id);
+        const data = await axios.put(`${server}/mark-completed`, {
+            id,
+            email: findStudents?.studentsInfo?.email
+        });
         
     }
  
