@@ -12,9 +12,9 @@ const Dashboard = () => {
 
 
 
-    useEffect(() => {
-        courseDataAction.setFetchAgain()
-    }, [])
+    // useEffect(() => {
+    //     courseDataAction.setFetchAgain()
+    // }, [])
 
 
     useEffect(() => {
@@ -25,7 +25,7 @@ const Dashboard = () => {
         } else {
 
         }
-    }, [againFetch, courses])
+    }, [])
 
 
 

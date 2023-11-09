@@ -16,14 +16,14 @@ const Home = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        fetch(`${server}/all-courses?size=${perPage}&page=${0}`)
+        fetch(`${server}/all-courses?size=${perPage}&page=${page}`)
             .then(res => res.json())
             .then(data => {
                 dispatch(courseDataAction.setAllCourses(data?.allCourses));
                 dispatch(courseDataAction.setCourseNumber(data?.documentCount));
             })
             .catch(err => console.log(err));
-    }, [perPage, againFetch]);
+    }, [perPage, againFetch, page]);
 
     useEffect(() => {
         // Set the filteredCourses to courses when courses change
@@ -68,7 +68,6 @@ const Home = () => {
                         <option value={'all'}>All</option>
                     </select>
                     <div className='d-flex gap-1'>
-                        current page is : {page}
                         {[...Array(pages).keys()]?.map(single => <button onClick={() => setPage(single)} className='btn border-black  border-1 ' key={single}>{single}</button>)}
 
                     </div>
