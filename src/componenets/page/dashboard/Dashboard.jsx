@@ -1,19 +1,31 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../AuthContext/AuthProvider';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import Course from '../../shared/Course';
+import { courseDataAction } from '../../redux/courseDataSlice';
 
 const Dashboard = () => {
     const { user } = useContext(AuthContext);
     const { courses, againFetch } = useSelector(state => state.courseData);
     const [allCourses, setAllCourses] = useState([]);
+    const dispatch = useDispatch()
 
 
 
+    useEffect(() => {
+        courseDataAction.setFetchAgain()
+    }, [])
 
 
-    const findAllCourses = courses?.filter(singleCourse => singleCourse?.students?.some(student => student?.studentsInfo?.email === user?.email));
+    useEffect(() => {
+        if (courses?.length > 0) {
+            const findAllCourses = courses?.filter(singleCourse => singleCourse?.students?.some(student => student?.studentsInfo?.email === user?.email));
+            setAllCourses(findAllCourses);
+            dispatch(courseDataAction.setFetchAgain())
+        } else {
 
+        }
+    }, [againFetch, courses])
 
 
 
@@ -33,7 +45,7 @@ const Dashboard = () => {
                     </div>
                     <div className="col-md-9">
                         <div className="row">
-                            {findAllCourses?.map(singleCourse => <div className='col-md-6'>
+                            {allCourses?.map(singleCourse => <div className='col-md-6'>
                                 <Course key={singleCourse?._id} data={singleCourse} />
                             </div>)}
                         </div>

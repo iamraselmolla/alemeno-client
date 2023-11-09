@@ -2,7 +2,9 @@ import { createSlice } from "@reduxjs/toolkit"
 
 const initialState = {
     courses: {},
-    againFetch: 1
+    againFetch: 1,
+    courseNumber: 6,
+    allCourseCount: 0
 }
 
 const courseDataSlice = createSlice({
@@ -14,6 +16,12 @@ const courseDataSlice = createSlice({
         },
         setFetchAgain(state, action) {
             state.againFetch++
+        },
+        setCourseNumber(state, action) {
+            state.courseNumber = action?.payload
+        },
+        setAllCourseCount(state, action) {
+            state.allCourseCount = action?.payload
         }
     }
 });

@@ -20,12 +20,10 @@ const Course = ({ data }) => {
         if (user?.email !== findStudents?.studentsInfo?.email) {
             return toast.error('Unauthorized Attempt')
         }
-        console.log(id);
         const data = await axios.put(`${server}/mark-completed`, {
             id,
             email: findStudents?.studentsInfo?.email
         });
-        console.log(data)
         if (data.status === 201) {
             toast.success(data?.data?.message);
             dispatch(courseDataAction.setFetchAgain())
@@ -71,18 +69,18 @@ const Course = ({ data }) => {
                     Completed 100%
                 </p>}
                 <div><ProgressBar variant="success" now={findStudents?.progress < 100 ? 10 : findStudents?.progress} /></div>
-                <div className='d-flex justify-content-between mt-2 align-content-center'>
-                    <div style={{ fontWeight: '900' }} className="text-danger d-flex align-content-center">
-                        <p className="mb-0">
-                            Due At: {Schedule?.End}
-                        </p>
-                    </div>
-                    {findStudents?.progress < 100 &&
+                {findStudents?.progress < 100 &&
+                    <div className='d-flex justify-content-between mt-2 align-content-center'>
+                        <div style={{ fontWeight: '900' }} className="text-danger d-flex align-content-center">
+                            <p className="mb-0">
+                                Due At: {Schedule?.End}
+                            </p>
+                        </div>
                         <button onClick={() => handleCompleted(_id)} className='bg-success text-white px-3 py-2 rounded-1 border-0'>
                             marked as complete
                         </button>
-                    }
-                </div>
+                    </div>
+                }
             </div>}
 
         </div>

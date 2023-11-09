@@ -12,7 +12,7 @@ const AuthProvider = ({ children }) => {
     const [isRegistered, setIsRegistered] = useState(false);
     const [user, setUser] = useState(null);
     const { againFetch } = useSelector(state => state.courseData)
-    console.log(againFetch)
+
     // User registration
     const createUser = (email, password) => {
         setLoading(true);

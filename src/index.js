@@ -9,6 +9,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import AuthProvider from './componenets/AuthContext/AuthProvider';
 import { Toaster } from 'react-hot-toast';
+import { PersistGate } from 'redux-persist/integration/react';
+import { persistor } from './componenets/redux/persist';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -6,20 +6,24 @@ import { courseDataAction } from '../../redux/courseDataSlice';
 import { Button } from 'react-bootstrap';
 
 const Home = () => {
-    const { courses } = useSelector(state => state.courseData);
+    const { courses, againFetch, allCourseCount, courseNumber } = useSelector(state => state.courseData);
     const [filteredCourses, setFilteredCourses] = useState([]);
-    const [courseNumbers, setCourseNumbers] = useState(6);
+    const [perPage, setPerPage] = useState(6);
+    const [page, setPage] = useState(0);
+
+
 
     const dispatch = useDispatch();
 
     useEffect(() => {
-        fetch(`${server}/all-courses`)
+        fetch(`${server}/all-courses?size=${perPage}&page=${0}`)
             .then(res => res.json())
             .then(data => {
-                dispatch(courseDataAction.setAllCourses(data));
+                dispatch(courseDataAction.setAllCourses(data?.allCourses));
+                dispatch(courseDataAction.setCourseNumber(data?.documentCount));
             })
             .catch(err => console.log(err));
-    }, []);
+    }, [perPage, againFetch]);
 
     useEffect(() => {
         // Set the filteredCourses to courses when courses change
@@ -41,27 +45,33 @@ const Home = () => {
 
     const handleCourseNumber = (e) => {
         if (e.target.value === 'all') {
-            setCourseNumbers(-1);
+            setPerPage(parseInt(courseNumber));
         } else {
-            setCourseNumbers(e.target.value);
+            setPerPage(parseInt(e.target.value));
         }
     }
-
+    const pages = courseNumber && Math.ceil(courseNumber / perPage)
+    console.log(courseNumber)
 
     return (
         <section className="container py-5">
             <div className="row px-3">
-                <div className="col-md-9">
+                <div className="col-md-6">
                     <input onChange={handleSearch} className='form-control w-100 mb-2' placeholder="Search Courses" />
                 </div>
-                <div className="col-md-3 d-flex gap-3">
-                    <select onChange={handleCourseNumber} defaultValue={'10'}>
+                <div className="col-md-6 d-flex gap-3">
+                    <select onChange={handleCourseNumber} defaultValue={6}>
                         <option disabled>Select Course</option>
                         <option value={3}>3</option>
                         <option value={6}>6</option>
                         <option value={10}>10</option>
                         <option value={'all'}>All</option>
                     </select>
+                    <div className='d-flex gap-1'>
+                        current page is : {page}
+                        {[...Array(pages).keys()]?.map(single => <button onClick={() => setPage(single)} className='btn border-black  border-1 ' key={single}>{single}</button>)}
+
+                    </div>
                     <div>
 
                     </div>
