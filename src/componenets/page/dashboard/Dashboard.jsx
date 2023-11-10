@@ -3,6 +3,8 @@ import { AuthContext } from '../../AuthContext/AuthProvider';
 import { useDispatch, useSelector } from 'react-redux';
 import Course from '../../shared/Course';
 import { courseDataAction } from '../../redux/courseDataSlice';
+import axios from 'axios';
+import { server } from '../../shared/const';
 
 const Dashboard = () => {
     const { user } = useContext(AuthContext);
@@ -17,15 +19,25 @@ const Dashboard = () => {
     // }, [])
 
 
-    useEffect(() => {
-        if (courses?.length > 0) {
-            const findAllCourses = courses?.filter(singleCourse => singleCourse?.students?.some(student => student?.studentsInfo?.email === user?.email));
-            setAllCourses(findAllCourses);
-            dispatch(courseDataAction.setFetchAgain())
-        } else {
+    // useEffect(() => {
+    //     if (courses?.length > 0) {
+    //         const findAllCourses = courses?.filter(singleCourse => singleCourse?.students?.some(student => student?.studentsInfo?.email === user?.email));
+    //         setAllCourses(findAllCourses);
+    //         dispatch(courseDataAction.setFetchAgain())
+    //     } else {
 
+    //     }
+    // }, []);
+
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const result = await axios.get(`${server}/get-student-course?email=${user?.email}`);
+            console.log(result)
+            setAllCourses(result?.data)
         }
-    }, [])
+        fetchData()
+    }, [againFetch])
 
 
 
