@@ -65,7 +65,7 @@ const Home = () => {
                         <option value={3}>3</option>
                         <option value={6}>6</option>
                         <option value={10}>10</option>
-                        <option value={'all'}>All</option>
+                        <option value={courseNumber}>All</option>
                     </select>
                     <div className='d-flex gap-1'>
                         {[...Array(pages).keys()]?.map(single => <button onClick={() => setPage(single)} className='btn border-black  border-1 ' key={single}>{single}</button>)}
